@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@drawable/registeration_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="224dp"
+        android:gravity="center"
+        android:text="Welcome!"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/black"
+        android:textSize="@dimen/ExtraLarge"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/email"
+        android:textColor="@color/label_color"
+        android:textSize="@dimen/Small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="50dp"
+        android:focusable="true"
+        app:boxBackgroundColor="#FFF"
+        app:boxStrokeColor="#FFF"
+        app:boxStrokeWidth="0dp"
+        android:fontFamily="@font/roboto_medium"
+        app:boxStrokeWidthFocused="0dp"
+        app:errorEnabled="false"
+        app:hintEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtemail"
+        app:layout_constraintTop_toBottomOf="@+id/txtemail">
+
+       <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:padding="@dimen/ten"
+            android:background="@drawable/edittextdesign"
+           />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/password"
+        android:textSize="@dimen/Small"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/label_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/username" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center_vertical"
+        app:boxBackgroundColor="#FFF"
+        app:boxStrokeColor="#FFF"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:errorEnabled="false"
+        app:hintEnabled="false"
+        app:layout_constraintEnd_toEndOf="@+id/username"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/username"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/light_grey">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="@dimen/editText_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittextdesign"
+            android:padding="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/txtagainpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TYPE PASSWORD AGAIN"
+        android:textSize="@dimen/Small"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/label_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/password"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="50dp"
+        android:focusable="true"
+        app:boxBackgroundColor="#FFF"
+        app:boxStrokeColor="#FFF"
+        app:boxStrokeWidth="0dp"
+        android:fontFamily="@font/roboto_medium"
+        app:boxStrokeWidthFocused="0dp"
+        app:errorEnabled="false"
+        app:hintEnabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtagainpass"
+        app:layout_constraintTop_toBottomOf="@+id/txtagainpass"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/light_grey">
+
+        <EditText
+            android:layout_width="@dimen/editText_width"
+            android:layout_height="match_parent"
+            android:background="@drawable/edittextdesign"
+            android:padding="10dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="@dimen/editText_width"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_greencolor"
+        android:fontFamily="@font/roboto"
+        android:text="@string/sign_up"
+        android:textColor="@color/white"
+        android:textSize="@dimen/Small"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="@+id/textInputLayout"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:fontFamily="@font/roboto"
+        android:padding="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/already_have_an_account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/register"
+        app:layout_constraintTop_toTopOf="@+id/login"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="@string/login"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

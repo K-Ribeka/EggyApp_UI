@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EggyApp</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="new_here">New here?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="already_have_an_account">Already have an account? </string>
+    <string name="login">Login</string>
+    <string name="add">Add</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="adhaar">Addhaar</string>
+    <string name="address">Address</string>
+    <string name="pincode">Pincode : </string>
+    <string name="comission">Commission</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="eggy_app">Eggy App</string>
+    <string name="name">Name</string>
+    <string name="holding_total_eggs">Holding Total Eggs : </string>
+    <string name="rs">Rs : </string>
+    <string name="sale">Sale</string>
+    <string name="pur">Pur</string>
+    <string name="current_egg_blance">Current Egg Blance : </string>
+    <string name="date">Date :</string>
+    <string name="create_your_account_to_get_started_after_that_you_can_view_customer_business_status">Create your account to get started.After that, you can View customer business status</string>
+    <string name="price_rate_for_last_10_entries">Price Rate for last 10 Entries</string>
+    <string name="home">Home</string>
+    <string name="report">Report</string>
+    <string name="sales">Sales</string>
+    <string name="product">Product</string>
+    <string name="skip_intro">Skip Intro</string>
+</resources>

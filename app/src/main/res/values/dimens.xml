@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- -->
+    <dimen name="design_navigation_separator_vertical_padding" tools:override="true">0dp</dimen>
+    <!--    sp   -->
+    <dimen name="ExtraLarge">25sp</dimen>
+    <dimen name="Large">16sp</dimen>
+    <dimen name="Medium">14sp</dimen>
+    <dimen name="Small">12sp</dimen>
+    <dimen name="Extrasmall">8sp</dimen>
+    <!--   dp   -->
+    <dimen name="title_margintop">36dp</dimen>
+    <dimen name="ten">10dp</dimen>
+    <dimen name="twohun">200dp</dimen>
+    <dimen name="huntwelve">112dp</dimen>
+    <dimen name="eight">8dp</dimen>
+    <dimen name="fivty">50dp</dimen>
+    <dimen name="margin_Top">108dp</dimen>
+    <dimen name="editText_width">300dp</dimen>
+    <dimen name="small_editText_width">100dp</dimen>
+    <dimen name="medium_editText_width">180dp</dimen>
+
+</resources>
